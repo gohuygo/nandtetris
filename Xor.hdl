@@ -1,7 +1,7 @@
 /** Exclusive-or gate. out = a xor b */
 CHIP Xor {
-	IN a, b;
-	OUT out;
+  IN a, b;
+  OUT out;
 
   PARTS:
   Not(in=a, out=nota);
