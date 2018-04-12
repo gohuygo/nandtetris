@@ -1,0 +1,10 @@
+/** Nand gate. out = not A and B */
+CHIP Nand {
+  IN a, b;
+  OUT out;
+  /**
+  PARTS:
+  And(a=a, b=b, out=out1);
+  Not(in=out1, out=out); */
+  BUILTIN Nand; 
+}
